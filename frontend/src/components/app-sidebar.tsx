@@ -8,6 +8,8 @@ import {
     SidebarContent,
     SidebarFooter,
 } from "@/components/ui/sidebar";
+import { title } from "process";
+import { url } from "inspector";
 
 // This is sample data.
 const data = {
@@ -26,6 +28,10 @@ const data = {
                 {
                     title: "Testpage",
                     url: "/",
+                },
+                {
+                    title: "Newpage",
+                    url: "/newpage",
                 },
             ],
         },
